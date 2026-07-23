@@ -39,3 +39,17 @@ for letter in word:
 
 print("Количество гласных:", vowel_count)
 print("Количество согласных:", consonant_count)
+
+# Задача 5.3
+
+if (a >= x) and (b < x):
+    print("Mike") 
+elif (b >= x) and (a < x):
+    print("Ivan")
+elif ((a + b) >= x):
+    # print(2) 
+    print(1) 
+elif a >= x and b >= x:
+    print("2") 
+else:
+    print("0")
