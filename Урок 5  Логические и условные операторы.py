@@ -13,7 +13,6 @@ if Namber % 2 == 0:
     elif Namber / 1 < 0:
         print("Отрицательное четное число")
 
-    # elif Namber / 1 > 0:
     else:
         print("Положительное четное число")
 
