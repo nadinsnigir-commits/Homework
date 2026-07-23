@@ -42,6 +42,11 @@ print("Количество согласных:", consonant_count)
 
 # Задача 5.3
 
+x = int(input("Minimum investment amount: "))
+a = int(input("Investment amount, Mike: "))
+b = int(input("Investment amount, Ivan: "))
+
+
 if (a >= x) and (b < x):
     print("Mike") 
 elif (b >= x) and (a < x):
@@ -53,3 +58,4 @@ elif a >= x and b >= x:
     print("2") 
 else:
     print("0")
+
